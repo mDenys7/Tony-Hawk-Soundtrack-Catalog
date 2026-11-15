@@ -96,14 +96,38 @@ body {
 }
 
 .track {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.25rem 0.75rem;
-  padding: 0.6rem 0.9rem;
   margin-bottom: 0.4rem;
   background: #fff;
   border-left: 0.35rem solid #000;
+}
+
+.track-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.6rem 0.9rem;
+  border: 0;
+  background: transparent;
+  color: #000;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.track-toggle:focus-visible,
+.service-links a:focus-visible {
+  outline: 3px solid #00338d;
+  outline-offset: -3px;
+}
+
+.track-toggle:hover {
+  background: #eee;
+}
+
+.track-action {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .track-cover {
@@ -131,7 +155,39 @@ body {
 }
 
 .track-pal {
-  flex-basis: 100%;
+  display: block;
   font-size: 0.85rem;
+}
+
+.track-services {
+  padding: 0 0.9rem 0.9rem;
+}
+
+.track-services[hidden] {
+  display: none;
+}
+
+.track-services p {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.service-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.service-links a {
+  padding: 0.5rem 0.75rem;
+  background: #111;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.service-links a:hover {
+  background: #444;
 }
 

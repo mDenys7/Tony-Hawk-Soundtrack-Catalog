@@ -51,7 +51,14 @@ async function fetchCover(artist, track) {
   return url;
 }
 
-export default function TrackCover({ artist, track }) {
+const gameFallbacks = {
+  thps1: "/images/game-fallbacks/thps1.svg",
+  thps2: "/images/game-fallbacks/thps2.svg",
+  thps3: "/images/game-fallbacks/thps3.svg",
+  thps4: "/images/game-fallbacks/thps4.svg",
+};
+
+export default function TrackCover({ artist, track, gameId, gameTitle }) {
   const ref = useRef(null);
   const [src, setSrc] = useState(null);
 
@@ -76,12 +83,21 @@ export default function TrackCover({ artist, track }) {
     };
   }, [artist, track]);
 
+  const fallbackSrc = gameFallbacks[gameId];
+
   return (
     <span ref={ref} className="track-cover">
-      {src && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={src} alt={`Capa de ${track}, de ${artist}`} loading="lazy" />
-      )}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={src || fallbackSrc}
+        alt={
+          src
+            ? `Capa de ${track}, de ${artist}`
+            : `Arte gráfica de apoio para ${gameTitle}`
+        }
+        loading="lazy"
+        onError={src ? () => setSrc(null) : undefined}
+      />
     </span>
   );
 }

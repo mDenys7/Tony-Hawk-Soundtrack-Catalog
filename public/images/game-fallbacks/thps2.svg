@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+  <rect width="320" height="320" fill="#e6d932"/>
+  <circle cx="248" cy="82" r="95" fill="#202020"/>
+  <path d="M0 254 204 50h58L58 254zM106 320 320 106v58L164 320z" fill="#f3f0e2"/>
+  <text x="28" y="58" fill="#202020" font-family="Impact,Arial Narrow,sans-serif" font-size="23" letter-spacing="2">TONY HAWK'S</text>
+  <text x="22" y="213" fill="#e6d932" font-family="Impact,Arial Narrow,sans-serif" font-size="150" font-weight="900">2</text>
+  <text x="28" y="273" fill="#202020" font-family="Impact,Arial Narrow,sans-serif" font-size="38" font-weight="900" letter-spacing="1">PRO SKATER</text>
+</svg>
