@@ -17,17 +17,22 @@ export default function Home() {
   if (!game) {
     return (
       <main className="home">
-        <div className="games">
-          {games.map((g) => (
-            <button
-              key={g.id}
-              type="button"
-              className="game-button"
-              onClick={() => chooseGame(g.id)}
-            >
-              <span>{g.label}</span>
-            </button>
-          ))}
+        <div className="home-content">
+          <p className="home-label">Trilhas sonoras dos jogos</p>
+          <h1 className="home-title">Tony Hawk Soundtrack Catalog</h1>
+          <div className="games">
+            {games.map((g) => (
+              <button
+                key={g.id}
+                type="button"
+                className="game-button"
+                onClick={() => chooseGame(g.id)}
+              >
+                <span>{g.label}</span>
+                <span className="game-arrow" aria-hidden="true">→</span>
+              </button>
+            ))}
+          </div>
         </div>
       </main>
     );
