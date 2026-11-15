@@ -1,0 +1,128 @@
+[
+  {
+    "id": "thps1",
+    "label": "Tony Hawk 1",
+    "title": "Tony Hawk's Pro Skater (1999)",
+    "note": "Lista padrão norte-americana (console original). Faixas marcadas como PAL substituem faixas da versão NA em lançamentos europeus.",
+    "tracks": [
+      { "artist": "Dead Kennedys", "track": "Police Truck" },
+      { "artist": "The Ernies", "track": "Here & Now" },
+      { "artist": "Even Rude", "track": "Vilified" },
+      { "artist": "Goldfinger", "track": "Superman" },
+      { "artist": "Primus", "track": "Jerry Was a Race Car Driver" },
+      { "artist": "Speedealer", "track": "Screamer / Nothing to Me" },
+      { "artist": "Suicidal Tendencies", "track": "Cyco Vision" },
+      { "artist": "The Suicide Machines", "track": "New Girl" },
+      { "artist": "Unsane", "track": "Committed" },
+      { "artist": "The Vandals", "track": "Euro-Barge" },
+      { "artist": "Aquasky", "track": "Blue Thunder", "pal": "Substitui Even Rude – Vilified" },
+      { "artist": "Grand Unified", "track": "Le Hot '99", "pal": "Substitui Speedealer – Screamer / Nothing to Me" },
+      { "artist": "Aim feat. YZ", "track": "Ain't Got Time to Waste", "pal": "Substitui The Vandals – Euro-Barge" }
+    ],
+    "sources": [
+      { "name": "Tony Hawk Wiki (Fandom)", "url": "https://tonyhawkgames.fandom.com/wiki/Tony_Hawk%27s_Pro_Skater/Soundtrack" },
+      { "name": "VGOST (Fandom) – faixas PAL", "url": "https://vgost.fandom.com/wiki/Tony_Hawk%27s_Pro_Skater" }
+    ]
+  },
+  {
+    "id": "thps2",
+    "label": "Tony Hawk 2",
+    "title": "Tony Hawk's Pro Skater 2 (2000)",
+    "tracks": [
+      { "artist": "Papa Roach", "track": "Blood Brothers" },
+      { "artist": "Anthrax & Public Enemy", "track": "Bring The Noise" },
+      { "artist": "Rage Against The Machine", "track": "Guerrilla Radio" },
+      { "artist": "Naughty By Nature", "track": "Pin The Tail On The Donkey" },
+      { "artist": "Bad Religion", "track": "You" },
+      { "artist": "Powerman 5000", "track": "When Worlds Collide" },
+      { "artist": "Millencolin", "track": "No Cigar" },
+      { "artist": "The High & Mighty feat. Mos Def & Mad Skillz", "track": "B-Boy Document '99" },
+      { "artist": "Dub Pistols", "track": "Cyclone" },
+      { "artist": "Lagwagon", "track": "May 16" },
+      { "artist": "Styles Of Beyond", "track": "Subculture" },
+      { "artist": "Consumed", "track": "Heavy Metal Winner" },
+      { "artist": "Fu Manchu", "track": "Evil Eye" },
+      { "artist": "Alley Life feat. Black Planet", "track": "Out With The Old" },
+      { "artist": "Swingin' Utters", "track": "Five Lessons Learned" }
+    ],
+    "sources": [
+      { "name": "StrategyWiki", "url": "https://strategywiki.org/wiki/Tony_Hawk%27s_Pro_Skater_2/Soundtrack" }
+    ]
+  },
+  {
+    "id": "thps3",
+    "label": "Tony Hawk 3",
+    "title": "Tony Hawk's Pro Skater 3 (2001)",
+    "tracks": [
+      { "artist": "AFI", "track": "The Boy Who Destroyed the World" },
+      { "artist": "Adolescents", "track": "Amoeba" },
+      { "artist": "Alien Ant Farm", "track": "Wish" },
+      { "artist": "Bodyjar", "track": "Not the Same" },
+      { "artist": "CKY", "track": "96 Quite Bitter Beings" },
+      { "artist": "Del the Funky Homosapien", "track": "If You Must" },
+      { "artist": "Guttermouth", "track": "I'm Destroying the World" },
+      { "artist": "House of Pain", "track": "I'm a Swing It" },
+      { "artist": "KRS-One", "track": "Hush" },
+      { "artist": "The Mad Capsule Markets", "track": "Pulse" },
+      { "artist": "Motörhead", "track": "Ace of Spades" },
+      { "artist": "The Nextmen", "track": "Amongst the Madness" },
+      { "artist": "Ozomatli", "track": "Cut Chemist Suite" },
+      { "artist": "Ramones", "track": "Blitzkrieg Bop" },
+      { "artist": "Red Hot Chili Peppers", "track": "Fight Like a Brave" },
+      { "artist": "Redman", "track": "Let's Get Dirty (I Can't Get in da Club)" },
+      { "artist": "Reverend Horton Heat", "track": "I Can't Surf" },
+      { "artist": "Rollins Band", "track": "What's the Matter Man" },
+      { "artist": "Xzibit", "track": "Paparazzi" },
+      { "artist": "Zebrahead", "track": "Check" }
+    ],
+    "sources": [
+      { "name": "TuneFind", "url": "https://www.tunefind.com/game/tony-hawks-pro-skater-3-2001" }
+    ]
+  },
+  {
+    "id": "thps4",
+    "label": "Tony Hawk 4",
+    "title": "Tony Hawk's Pro Skater 4 (2002)",
+    "tracks": [
+      { "artist": "AC/DC", "track": "T.N.T." },
+      { "artist": "Aesop Rock", "track": "Labor" },
+      { "artist": "Agent Orange", "track": "Bloodstains (Darkness Version)" },
+      { "artist": "Avail", "track": "Simple Song" },
+      { "artist": "The Bouncing Souls", "track": "Manthem" },
+      { "artist": "City Stars feat. Jai Plus", "track": "Bad Dreams" },
+      { "artist": "The Cult", "track": "Bad Fun" },
+      { "artist": "De La Soul", "track": "Oodles of O's" },
+      { "artist": "Delinquent Habits", "track": "House of the Rising Drum" },
+      { "artist": "The Distillers", "track": "Seneca Falls" },
+      { "artist": "Eyedea & Abilities", "track": "Big Shots" },
+      { "artist": "The Faction", "track": "Skate & Destroy" },
+      { "artist": "Flogging Molly", "track": "Drunken Lullabies" },
+      { "artist": "Gang Starr", "track": "Mass Appeal" },
+      { "artist": "Goldfinger", "track": "Spokesman" },
+      { "artist": "Haiku D'Etat", "track": "Non Compos Mentis" },
+      { "artist": "Hot Water Music", "track": "Freightliner" },
+      { "artist": "Iron Maiden", "track": "The Number of the Beast" },
+      { "artist": "JFA", "track": "Beach Blanket Bongout" },
+      { "artist": "Less Than Jake", "track": "All My Best Friends Are Metalheads" },
+      { "artist": "Lootpack", "track": "Whenimondamic" },
+      { "artist": "Muskabeatz feat. Biz Markie", "track": "Body Rock" },
+      { "artist": "Muskabeatz feat. Jeru the Damaja", "track": "Verses of Doom" },
+      { "artist": "Muskabeatz feat. Melle Mel", "track": "I'm a Star" },
+      { "artist": "N.W.A.", "track": "Express Yourself" },
+      { "artist": "Nebula", "track": "Giant" },
+      { "artist": "The Offspring", "track": "Blackball" },
+      { "artist": "Public Enemy", "track": "By The Time I Get To Arizona" },
+      { "artist": "Rocket from the Crypt", "track": "Savoir Faire" },
+      { "artist": "Run-D.M.C.", "track": "My Adidas" },
+      { "artist": "Sex Pistols", "track": "Anarchy in the U.K." },
+      { "artist": "System of a Down", "track": "Shimmy" },
+      { "artist": "The Toy Dolls", "track": "Dig That Groove Baby" },
+      { "artist": "U.S. Bombs", "track": "Yer Country" },
+      { "artist": "Zeke", "track": "Death Alley" }
+    ],
+    "sources": [
+      { "name": "GameSpot – soundtrack revealed", "url": "https://www.gamespot.com/articles/tony-hawks-pro-skater-4-soundtrack-revealed/1100-2894838/" },
+      { "name": "Planet Tony Hawk (GameSpy)", "url": "https://planettonyhawk.gamespy.com/View494d.html?view=thps4_gameinfo.Detail&id=15" }
+    ]
+  }
+]
