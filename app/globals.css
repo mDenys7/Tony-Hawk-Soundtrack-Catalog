@@ -1,11 +1,9 @@
 body {
   margin: 0;
-  background-color: gray;
+  background: #252623 url("/images/skate-park.svg") center / cover no-repeat fixed;
 }
 
 .home {
-  position: relative;
-  isolation: isolate;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -14,14 +12,6 @@ body {
   box-sizing: border-box;
   color: #f0eee8;
   font-family: Arial, sans-serif;
-}
-
-.home::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background: #252623 url("/images/skate-park.svg") center / cover no-repeat;
 }
 
 .home-content {
@@ -140,7 +130,7 @@ body {
   margin: 0 auto;
   padding: 2rem 1rem 3rem;
   box-sizing: border-box;
-  color: #000;
+  color: #f0eee8;
 }
 
 .back-button {
@@ -174,6 +164,7 @@ body {
 .track {
   margin-bottom: 0.4rem;
   background: #fff;
+  color: #000;
   border-left: 0.35rem solid #000;
 }
 
